@@ -1,8 +1,20 @@
 # Collection of useful Python snippets that you can understand in 30 seconds or less.
 
+## Date 
+
+## Datetime
+
+```python
+from datetime import datetime, timedelta
+
+# show today with yyyymmdd format
+TODAY = datetime.today().strftime('%Y%m%d')
+
+```
+
 ## File operation
 
-### 
+### Delete file
 
 Delete a file which may not exist.
 
