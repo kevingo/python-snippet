@@ -7,9 +7,12 @@
 ```python
 from datetime import datetime, timedelta
 
-# show today with yyyymmdd format
-TODAY = datetime.today().strftime('%Y%m%d')
+DATE_FORMAT = '%Y%m%d'
+# show today with yyyymmdd format by string format time func
+TODAY = datetime.today().strftime(DATE_FORMAT)
 
+# convert string datetime to date obj by string parse time func
+datetime_obj = datetime.strptime('20170111', DATE_FORMAT)
 ```
 
 ## File operation
