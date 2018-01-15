@@ -39,3 +39,19 @@ except OSError:
 ```python
 list(set(origin_all_feature_list) - set(remove_nan_feature_list))
 ```
+
+## Pandas
+
+### Import data
+
+```python
+import pandas as pd
+
+path = 'data.csv'
+
+### Import data without first column as header
+data = pd.read_csv(path, header=None)
+
+print data
+
+```
