@@ -30,6 +30,15 @@ except OSError:
     pass
 ```
 
+### Check file exist
+
+```python
+import os
+
+if os.path.exists(path):
+    print ('File exist')
+```
+
 ## List operation
 
 ### Two lists substraction
