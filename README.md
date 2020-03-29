@@ -1,8 +1,8 @@
 # Collection of useful Python snippets that you can understand in 30 seconds or less.
 
-## Date 
+## Date
 
-## Datetime
+### Datetime
 
 ```python
 from datetime import datetime, timedelta
@@ -37,6 +37,18 @@ import os
 
 if os.path.exists(path):
     print ('File exist')
+```
+
+### Use glob to iterate file that match a specified pattern
+
+```python
+import glob
+
+files = glob.glob('/path/to/files/*.txt')
+
+for f in file:
+    print(f)
+
 ```
 
 ## List operation
