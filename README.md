@@ -22,7 +22,7 @@ datetime_obj = datetime.strptime('20170111', DATE_FORMAT)
 Delete a file which may not exist.
 
 ```python
-import os
+import os
 
 try:
     os.remove(filename)
